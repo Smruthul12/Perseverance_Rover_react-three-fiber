@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+#first{
+    background-image: url("images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+button{
+    background-color: orangered;
+    border: none;
+    /* width: 150px; */
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    font-weight:bolder;
+}
+
+.row1{
+    margin-left: 20px;
+    width: 50%;
+    text-align: left;
+}
+
+#second{
+    height: 100vh;
+}
+
+.row2{
+    display: flex;
+    margin: 20px 40px 0;
+    height: 380px;
+}
+
+.box{
+    margin: 20px;
+    margin-top: 60px;
+}
+
+#leftNewsBox{
+    width: 50%;
+    margin-right:10px;
+}
+#rightNewsBox{
+    width: 50%;
+    margin-left:10px;
+    display: flex;
+}
+
+#leftBox{
+    width: 50%;
+    margin-right:10px;
+}
+#rightBox{
+    width: 50%;
+    margin-left:10px;
+}
+
+#topBox{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+    
+}
+#bottomBox{
+    width: 100%;
+    height: 180px;
+}
+
+.newsLetter{
+    color: white;
+    background-image: url("images/news.png");
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+.art{
+    font-size: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.title{
+    margin-left: 20px;
+    position: absolute; 
+    bottom: 20px; 
+    left: 0;
+}
+
+.row3{
+    display: flex;
+    margin: 20px 40px 0;
+    height: 80px;
+}
+.card{
+    width:25%;
+    margin: 0 10px; 
+    display: flex;
+    overflow: hidden;
+}
+
+#l{
+    margin-left:0px;
+}
+#r{
+    margin-right:0px;
+}
+
+.image-container {
+    border-radius: 50%;
+    width: 40%;
+}
+  
+.image-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.content {
+    width: 60%;
+    font-size: 10px;
+    position: relative;
+}
+
+#title2{
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    padding-bottom: 4px;
+}
+
+
+.row4{
+    background-image: url("images/story.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+#fs{
+    position: absolute; 
+    top: 70px; 
+    left: 25px;
+}
+
+#head{
+    width: 50%;
+    position: absolute; 
+    bottom: 70px; 
+    left: 25px;
+}
+
+#bold{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#empty-button{
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 180px;
+    text-align: left;
+    padding-left: 0;
+}
+
+#des{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.iod-section{
+    margin: 30px 0;
+    height: 70vh;
+    display: flex;
+}
+#left-section{
+    width: 35%;
+    margin-left: 20px;
+}
+#img-section img{
+    height: 400px;
+    width: 620px;
+}
+#img-section {
+    margin-left: 30px;
+}
+
+#empty-button2{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    text-align: left;
+    padding-left: 0;
+}
+
+.img-t{
+    font-size: 11px;
+}
+
+#iod-title{
+    margin-bottom: 20px;
+}
+
+.Nbox{
+    margin: 20px;
+    margin-top: 60px;
+}
+.rowNew{
+    display: flex;
+    margin: 20px 40px 0;
+}
+#new{
+    height: 100vh;
+    margin-bottom: 50px;
+}
+#RNewsBox{
+    width: 100%;
+    margin-left:10px;
+    
+}
+
+#ntopBox{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+    
+}
+#nbottomBox{
+    width: 100%;
+    height: 240px;
+}
