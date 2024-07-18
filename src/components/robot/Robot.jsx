@@ -7,7 +7,7 @@ export function Robot(props) {
   const { nodes, materials } = useGLTF('src/assets/models/rover-transformed.glb')
   const robot = useRef()
   const radius = 0.9; // Radius of the circular path
-  const speed = 0.8; // Speed of movement
+  const speed = 0.7; // Speed of movement
   useFrame(({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
 
@@ -23,14 +23,15 @@ export function Robot(props) {
   });
 
   return <>
-    <color attach="background" args={["#040013"]} /> 
+   <color attach="background" args={["#040013"]} /> 
     <ambientLight intensity={0} />
     <spotLight position={[-1, 1, 3]} angle={1} penumbra={1} castShadow intensity={1} shadow-bias={-0.0001} />
     <Environment 
       preset='dawn'    
     />
-    <Sparkles size={4} color={"#aaa"} scale={[10,10,10]}></Sparkles>
+    <Sparkles size={2} color={"#aaa"} count={500} scale={[30,30,30]}></Sparkles>
 
+    
     <group {...props} dispose={null} ref={robot} >
     <group position={[0.45, -0.065, 0.25]} rotation={[0, 0, 0]} scale={0.2}>
       {/* <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} scale={0.01} /> */}
